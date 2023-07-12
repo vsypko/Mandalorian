@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "StarWars";
+  src: url("assets/Starjedi.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(15 23 42 /1);
+}
+
+#canvas {
+  margin-left: 30px;
+  margin-top: 30px;
+  border: solid 1px white;
+  background-image: url("./assets/view.png");
+  background-size: cover;
+}
+
+#button {
+  font-family: "StarWars";
+  position: absolute;
+  left: 40px;
+  top: 40px;
+  padding: 0px 20px;
+  font-size: 20px;
+  font-style: italic;
+  border-radius: 30px;
+  color: gold;
+  background: #555555;
+  transition: 0.2s;
+}
+
+#button:hover {
+  background: #000000;
+}
