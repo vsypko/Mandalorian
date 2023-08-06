@@ -14,7 +14,7 @@ class Particle {
     this.dist = 0
     this.force = 0
     this.angle = 0
-    this.ease = 0.1
+    this.ease = 0.05
     this.gravity = 0.99
   }
 
