@@ -52,7 +52,7 @@ canvas.height = canvas.width / bgAspect
 
 const audio = new Audio("assets/diw.m4a")
 audio.loop = true
-audio.volume = 0.15
+audio.volume = 0.2
 
 entities.push(new Entity("assets/razor.png", 600, 350, 300, razorAspect, ctx))
 entities.push(new Entity("assets/mandalorian.png", 200, 350, 200, mandalAspect, ctx))
