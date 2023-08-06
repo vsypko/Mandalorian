@@ -15,7 +15,7 @@ class Particle {
     this.force = 0
     this.angle = 0
     this.ease = 0.1
-    this.gravity = 0.97
+    this.gravity = 0.99
   }
 
   update() {
@@ -46,7 +46,7 @@ class Effect {
     this.width = width
     this.height = height
     this.particles = []
-    this.gap = 2
+    this.gap = 1
 
     this.pointer = {
       radius: 3000,
